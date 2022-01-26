@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>This is clearly a troll</p>
+
+    <script>
+        function light(sw) {
+            var url="";
+            var all = [97, 73, 80, 51, 103, 77, 75, 49, 68, 112, 51, 62, 110, 62, 88, 63, 116, 66, 39, 122, 78, 70, 47, 124, 77, 65, 121, 43, 120, 103, 114, 71, 122, 16, 74, 73, 113, 116, 27, 26]
+            for(var i = 0; i < all.length; ++i){
+                // all[i] = url.charCodeAt(i) ^ i;
+                all[i] = all[i] ^ i;                
+                url = url + String.fromCharCode(all[i])
+            }
+            console.log(url)
+            window.location.href = atob(url);
+        }
+    </script>
+
+    <p>
+        <button type="button" onclick="light(1)">I have faith</button>
+    </p>
+
+</body>
+
+</html>
