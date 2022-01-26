@@ -1,0 +1,5 @@
+# ninja log v5
+8	1493	6649200300484236	src/CMakeFiles/dhtml.dir/networking.cpp.obj	90b13a9327f0cec4
+5	1614	6649229526378488	src/CMakeFiles/dhtml.dir/main.cpp.obj	4303a481c193fbdc
+1	1620	6649229526428515	src/CMakeFiles/dhtml.dir/dhtml.cpp.obj	7c3b2c98879c4b50
+1620	2446	6649229530078587	src/dhtml.exe	58549410e2e74439
